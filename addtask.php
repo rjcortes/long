@@ -28,19 +28,21 @@
     <!-- </form> -->
   </form>
 </div>
+<br>
 
 <!--
         <input type="hidden" name="action" value="add_product">
 
         <label>Category:</label>
         <select name="category_id">
-        <?php //foreach ( $categories as $category ) : ?>
-            <option value="<?php//echo $category['categoryID']; ?>">
-                <?php //echo $category['categoryName']; ?>
+        <?php foreach ( $categories as $category ) : ?>
+            <option value="<?php echo $category['categoryID']; ?>">
+                <?php echo $category['categoryName']; ?>
             </option>
-        <?php //endforeach; ?>
+        <?php endforeach; ?>
         </select>
         <br>
 -->
 
+</main>
 <?php include 'view/footer.php'; ?>
